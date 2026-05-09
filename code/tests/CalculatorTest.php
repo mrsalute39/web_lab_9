@@ -8,5 +8,6 @@ class CalculatorTest extends TestCase
     {
         $calc = new Calculator();
         $this->assertEquals(3, $calc->add(1, 2));
+		$this->assertEquals(2, 1 + 2);
     }
 }
